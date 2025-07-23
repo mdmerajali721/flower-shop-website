@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Noto Serif", serif; */
+}
+
+/* shared style */
+.highlight {
+    color: #E95A08;
+}
+.darklight {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* navbar style */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24.5px 150px 120px 150px;
+    
+}
+
+.logo img {
+    width: 135px;
+    height: 82px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #8987A1;
+}
+
+.nav-links .home-link {
+    font-weight: 600;
+    color: #252432;
+}
+
+.nav-links .Cart {
+    color: #000000;
+}
+
+/* hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    /* align-items: center; */
+    margin: 0 150px 0 150px;
+}
+
+.hero-text h1 {
+    
+    font-size: 4.0625rem;
+    font-weight: 600;
+    font-family: "Noto Serif", serif;
+}
+
+.hero-text p {
+    font-family: "Inter", sans-serif;
+    font-size: 1.375rem;
+}
+
+
+.hero-image img {
+    width: 570px;
+    height: 355px;
+}
+
+
+
+/* responsive section */
+@media screen and (max-width: 576px) {
+/* navbar style */
+    .home,
+    .shop,
+    .about-us {
+        display: none;
+        }
+    .navbar {
+        margin: 13px 16px 28px 16px;
+        display: flex;
+        justify-content: space-between;
+        }
+    .logo img {
+        width: 63px;
+        height: 38px;
+        }
+
+    }
